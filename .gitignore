@@ -1,0 +1,41 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+google-books-search/node_modules
+google-books-search/.pnp
+google-books-search/.pnp.*
+google-books-search/.yarn/*
+!google-books-search/.yarn/patches
+!google-books-search/.yarn/plugins
+!google-books-search/.yarn/releases
+!google-books-search/.yarn/versions
+
+# testing
+google-books-search/coverage
+
+# next.js
+google-books-search/.next/
+google-books-search/out/
+
+# production
+google-books-search/build
+
+# misc
+.DS_Store
+*.pem
+
+# debug
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# env files (can opt-in for committing if needed)
+.env*
+
+# vercel
+.vercel
+
+# typescript
+*.tsbuildinfo
+next-env.d.ts
