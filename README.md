@@ -1,21 +1,15 @@
-# Technical Assessment
+# Projects
 
-This repository contains the solution for the technical assessment, which consists of two tasks:
+This repository contains two projects:
 
-## Part 1: Word Frequency
+## 1. Word Frequency Analyzer
 
-This task involves creating a Python program that processes a text file from Project Gutenberg and prints the top 10th to 20th words by frequency.
+A Python program that processes a text file and prints words ranked by frequency.
 
-### Instructions:
+See the [`text-frequency-analyzer`](./text-frequency-analyzer/) folder for details and usage instructions.
 
-1. Navigate to the [`part-1`](./part-1/) folder.
-2. Follow the instructions in the README there to run the Python program.
+## 2. Google Books Search
 
-## Part 2: Google Books Search
+A Next.js web application for searching books via the Google Books API, featuring a search bar, book list, and detailed book pages.
 
-This task involves building a Next.js web application that allows users to search for books using the Google Books API. The application includes features such as a search bar, book list, and detailed book pages.
-
-### Instructions:
-
-1. Navigate to the [`part-2`](./part-2/) folder.
-2. Follow the instructions in the README there to run the Next.js application locally.
+See the [`google-books-search`](./google-books-search/) folder for details and usage instructions.
